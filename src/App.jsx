@@ -1,12 +1,14 @@
-import React from 'react'
+import { ReactTyped } from "react-typed";
 
 const App = () => {
   return (
-    <div > 
-    <h1 className=' underline'>
-    hELlO KEMUNTO
-      </h1></div>
-  )
-}
+    <div>
+      <h1>
+        I am{" "}
+        <ReactTyped strings={["Harriet Kemunto","a software developer", "font-end developer"]} typeSpeed={200} loop />
+      </h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
